@@ -1,0 +1,392 @@
+
+body{
+    font-family: trebuchet MS;
+
+}
+
+/*HEADER CSS */
+#header{
+    height:5em;
+    margin-left:-1em;
+}
+
+#navIconHeader{
+    padding-top:1em;
+    display: inline-block;
+    float:left;
+    cursor: hand;
+    cursor: pointer;
+    margin-left:0.5em;
+}
+
+#headerTitle{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-left: 0.5em;
+}
+
+#titleAnchor{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#titleDiv{
+    text-align: center;
+    padding-top:1em;
+}
+
+
+/***************VERTICAL NAVIGATION  BAR CSS ***************/
+
+#verticalNavBar{
+    width: 20%;
+    float:left;
+    margin-left:-1.1em;
+    background-color: #3C3C3C;
+    height: 62em;
+    display: inline-block;
+    max-width: 14em;
+}
+
+#contentLargeArea{
+    background-color:#F3F3F3;
+    float:left;
+    width:80%;
+    display: inline-block;
+/*    overflow: hidden;*/
+}
+
+#contentSmallArea{
+    
+    margin-right:1em;
+    margin-top:1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+
+#clickLegislator{
+    color:#C5C5C5;
+    height: 2.5em;
+    padding-top: 0.2em;
+    padding-left:0.4em;
+    font-size: 1.1em;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#legislatorLabel{
+
+    padding-left: 1.2em;
+
+}
+
+#clickFile{
+    color:#C5C5C5;
+    height: 2.5em;
+    padding-top: 0.2em;
+    padding-left:0.4em;
+    font-size: 1.1em;
+    cursor: hand;
+    cursor: pointer;
+
+}
+
+#fileLabel{
+    padding-left: 1em;
+
+}
+
+#clickCommittee{
+    color:#C5C5C5;
+    height: 2.5em;
+    padding-top: 0.2em;
+    padding-left:0.4em;
+    font-size: 1.1em;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#committeeLabel{
+    padding-left: 1em;
+
+}
+
+#clickFavorites{
+    color:#C5C5C5;
+    height: 2.5em;
+    padding-top: 0.2em;
+    padding-left:0.4em;
+    font-size: 1.1em;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#favoritesLabel{
+    padding-left: 1em;
+
+}
+
+#navBarItems{
+    padding-top:1.5em;
+    padding-left:1em;
+}
+
+#bootstrapHeader{
+   margin-top:-2px;
+   border-bottom-color: darkgrey;
+}
+
+
+#dynamicContentArea{
+    width:100%;
+    border: 1px solid;
+    border-style: groove;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 0.2em;
+}
+
+
+#partyImage{
+    width:1.5em;
+    height:auto;
+}
+
+#twitterImage{
+    width:3em;
+    height:auto;
+}
+
+#facebookImage{
+    width:2.5em;
+    height:auto;
+    
+}
+
+#webImage{
+    width:2.5em;
+    height:auto;
+    
+}
+
+#favLegImage{
+    width:1.5em;
+    height:auto; 
+}
+
+#chamberImage{
+    width:1.5em;
+    height:auto;
+}
+
+#chamberType{
+    padding-left:1em;
+
+}
+
+#stateSelect{
+    float: right;
+}
+
+#searchBar{
+    float: right;
+}
+
+
+#billTitle{
+    width: 12em;
+}
+
+
+#tableData{
+    background-color: white;
+}
+
+#tableDiv{
+    padding: 1em 1em 1em 1em; 
+    margin-top:-1.4em;
+}
+
+#titleAndContentLarge{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgray;
+    background-color:white;
+    padding: 1em 1em 1em 1em; 
+    
+}
+
+#titleAndContentSmall{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgray;
+    border-radius: 0.2em;
+/*    overflow: auto;*/
+}
+
+#titleAndContentSmallDetails{
+/*    overflow: auto;*/
+    font-size: 0.9em;
+}
+
+#viewDetailsButton{
+    float:right; 
+}
+
+
+#detailsHeader{
+    height: 4em;
+}
+
+#legDetailsBack{
+    margin-top: 0.8em;
+    margin-left: 0.2em;
+    width: 2.5em;
+    height: 2.5em;
+    float:left;
+    
+}
+
+#legDetailsFavButton{
+    float:right;
+    margin-top: 0.8em;
+    margin-right: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#detailsHeaderLabel{
+    width:5em;
+    margin-left: 0.2em;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#favStarDetails{
+    font-size: 20px;
+}
+
+#LegDetailsImage{
+    width:13em;
+    height:auto;
+    margin-left: 2.5em;
+}
+
+#pdfViewerBills{
+   width:100%;
+    height:35em;
+}
+
+#paginationControl{
+    text-align: center;
+}
+
+#committeeDetailsLabel{
+    font-size: 1.2em;
+}
+
+#BillsDetailsLabel{
+    font-size: 1.2em;
+}
+
+tbody{
+/*    overflow: scroll !important;*/
+}
+
+
+
+#deleteButton:hover{
+    
+    color: red;
+    
+}
+
+
+.yellowStar{
+    color: yellow;
+}
+
+.whiteStar{
+    color: white;
+}
+
+
+
+
+
+/***************MEDIA QUERIES FOR MOBILE DEVICE CAPABILITIES***************/           
+
+
+@media only screen and (max-width: 650px) {
+
+    #legislatorLabel{
+        display:none;
+    }
+
+    #fileLabel{
+        display:none;
+    }
+
+    #committeeLabel{
+        display:none;
+    }
+
+    #favoritesLabel{
+        display:none;
+    }
+
+    #headerTitle{
+        font-size: 1em;
+    }
+
+    #sunlightImage{
+        height: 2em;
+    }
+    
+    #stateSelect{
+    margin-left: 0em;
+    }
+    
+    #detailsHeaderLabel{
+    font-size: 1.5em;
+
+    }
+    
+    #stateSelector{
+        width: 7em;
+    }
+    
+    #houseSearchBar{
+        width: 7em;
+    }
+    
+    #senateSearchBar{
+        width: 7em;
+    }
+    
+    #activeSearchBar{
+        width: 7em;
+    }
+    
+    #newSearchBar{
+        width: 7em;
+    }
+    
+    #pdfViewerObject{
+        width: 300;
+        
+    }
+    
+    ##verticalNavBar{
+        width:3.5em;
+        
+    }
+    
+
+}
